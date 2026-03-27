@@ -3,24 +3,6 @@ def string_methods():
     title, find, replace, count, operador in, slicing con paso, reverso,
     f-strings y strings multilínea.
 
-Strip: Grace Hopper
-Lstrip: Grace Hopper
-Rstrip:    Grace Hopper
-Upper: PYTHON ES UN GRAN LENGUAJE DE PROGRAMACION
-Lower: python es un gran lenguaje de programacion
-Title: Python Es Un Gran Lenguaje De Programacion
-Find: 13
-Replace: Python es un gran lenguaje de desarrollo
-Count: 4
-Contiene Python: True
-Contiene Java: False
-Slice: Python
-Paso: Pto
-Reverso: nohtyP
-Formato: Grace Hopper sabe Python
-Linea 1
-Linea 2
-Linea 3
     """
     nombre = "   Grace Hopper   "
     frase = "Python es un gran lenguaje de programacion"
@@ -33,12 +15,12 @@ Linea 3
     print(f"Upper: {frase.upper()}")
     print(f"Lower: {frase.lower()}")
     print(f"Title: {frase.title()}")
-    print(f"Find: {frase.find("gran")}")
-    print(f"Replace: {frase.replace("programacion", "desarrollo")}")
+    print(f"Find: {frase.find('gran')}")
+    print(f"Replace: {frase.replace('programacion', 'desarrollo')}")
     print(f"Count: {frase.count('a')}")
-    print(f"Contiene Python: {("Python" in frase)}")
-    print(f"Contiene Java: {("Java" in frase)}")
-    print(f"Slice: {"Python"}")
+    print(f"Contiene Python: {('Python' in frase)}")
+    print(f"Contiene Java: {('Java' in frase)}")
+    print(f"Slice: {'Python'}")
     print(f"Paso: {frase[:6:2]}")
     print(f"Reverso: {frase[5::-1]}")
     print(f"Formato: {nombre.strip()} sabe Python")
